@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment3</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <script src='js dom/jsdom.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
+</head>
+<body> 
+    <section class="nav">
+        <nav>
+            
+            <ul class="ulnav">                
+                <li class="linav"><a href="#about_us">ABOUT US</a>|</li>      
+                <li class="linav"><a href="#menu">MENU</a></li> 
+                <img id="logo" src="images/logo.png" alt="My logo" height="88" width="55">                                
+                <li class="linav"><a href="#have_fun">HAVE FUN</a>|</li>
+                <li class="linav"><a href="#contact">CONTACT US</a></li>                      
+            </ul>
+        </nav>
+    </section>
+    
+
+    <header id="about_us">
+        <section class="button">
+            <button class="b1"></button>
+            <button class="b2"></button>
+        </section>  
+        <section class="content">
+            <div id="pic1">
+                <p class="fish">The year was 1984...
+                    Whistler Resort at the time was barely more than a random collection of chairlifts, cheap land and a new concept pedestrian village built on an old garbage dump.
+                    But there was a vision.
+                </p>
+            </div>
+            <div id="pic2">
+                <p class="pic1">The year was 1984...
+                    Whistler Resort at the time was barely more than a random collection of chairlifts, cheap land and a new concept pedestrian village built on an old garbage dump.
+                    But there was a vision.
+                </p>
+            </div>
+            <div id="pic3">
+                <p class="pic2">The year was 1984...
+                    Whistler Resort at the time was barely more than a random collection of chairlifts, cheap land and a new concept pedestrian village built on an old garbage dump.
+                    But there was a vision.
+                </p>
+            </div>
+        </section>
+        
+    </header>
+
+    <section class="menu" id="menu">
+        <nav class="sushimenu abs">
+            <ul class="ulmenu">
+                <li class="limenu">SUSHI</li>
+                <li class="limenu">NOODLE</li>
+                <li class="limenu">SAKE</li>
+            </ul>
+        </nav>
+        <div class="sns pic">
+            <div class="sushi1 c1">           
+                <span><br>3.4$<br>Salmon<br>2pies</span>
+            </div>
+            <div class="sushi1 c2">          
+                <span><br>4.4$<br>Salmon<br>2pies</span>
+            </div>
+            <div class="sushi1 c3">       
+                <span><br>2.4$<br>Salmon<br>2pies</span>
+            </div>
+            <div class="sushi1 c4">            
+                <span><br>5.4$<br>Salmon<br>2pies</span>
+            </div>
+            <div class="sushi1 c5">        
+                <span><br>3.0$<br>Salmon<br>2pies</span>
+            </div>
+            <div class="sushi1 c6">        
+                <span><br>3.8$<br>Salmon<br>2pies</span>
+            </div>
+            <div class="sushi1 c7">        
+                <span><br>2.8$<br>Salmon<br>2pies</span>
+            </div>
+            <div class="sushi1 c8">        
+                <span><br>6.4$<br>Salmon<br>2pies</span>
+            </div>
+            <div class="sushi1 c9">        
+                <span><br>5.0$<br>Salmon<br>2pies</span>
+            </div>
+                                  
+        </div>
+        <div class="sns">
+            <div class="noodle n1">           
+                <span><br>7.4$<br>Woodon Veg<br>1person</span>
+            </div>
+            <div class="noodle n2">           
+                <span><br>8.9$<br>Beef Noodle<br>1person</span>
+            </div>
+            <div class="noodle n3">           
+                <span><br>10.0$<br>Chicken Noodle<br>1person</span>
+            </div>
+            <div class="noodle n4">           
+                <span><br>12.4$<br>Shramp Noodle<br>2person</span>
+            </div>
+        </div>
+        <div class="sns">
+            <div class="sake s1">           
+                <span><br>17.4$<br>Sake Spring<br>1bottle</span>
+            </div>
+            <div class="sake s2">           
+                <span><br>18.9$<br>Sake Bamboo<br>1bottle</span>
+            </div>
+            <div class="sake s3">           
+                <span><br>20.0$<br>Sake Summer<br>1bottle</span>
+            </div>
+            <div class="sake s4">           
+                <span><br>22.4$<br>Sake Winnter<br>1bottle</span>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="game" id="have_fun">
+        <iframe style="height: 100%; width: 100%; " src="js game/link.html"></iframe>
+    </section>   
+    <script>
+    </script>
+</body>
+
+<footer>
+    <div class="footer" id="contact">
+        <article class="part1">
+            <h2>Contact Us</h2><br>
+            <p>Phone number:
+
+            (902) 422-9020 ext. 3<br>
+
+            Address:
+
+            149 Hector Gate. Dartmouth Crossing
+
+            Dartmouth, NS B3B 0E5<br>
+
+            E-mail:
+
+            dartmouthcrossing@sushinami.ca<br>
+
+            Business Hours:<br>
+
+            Mon ~ Thur : 11:00 AM ~ 10:00 PM<br>
+            Fri : 11:00 AM ~ 11:00 PM<br>
+            Sat : 11:30 AM ~ 11:00 PM<br>
+            Sun : 12:30 PM ~ 9:00 PM</p>
+            <button value="Open on map">Open on map</button>
+        </article>        
+        <form method="POST" action="js dom/sushiform.php">
+            <h2>Make an appointment online</h2><br>
+            <input type="text" name="fname" value="First Name:"><br>
+            <input type="text" name="lname" value="Last Name:"><br>
+            <input type="text" name="phone" value="Phone Number:"><br>
+            <input type="text" name="email" value="Email:"><br>
+            <textarea rows="4" cols="50" name="comments" placeholder="Leaving your comments here:"></textarea><br>
+            <button type="submit" value="Submit" onclick="alert('Thanks for your reservation!')">Submit</button> 
+        </form>
+    </div>
+</footer>   
+</html>
